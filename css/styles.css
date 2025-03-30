@@ -25,7 +25,7 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 section {
@@ -409,7 +409,7 @@ span {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 6rem 5% 2rem; /* Reduce padding */
     }
 
     .footer {
@@ -432,6 +432,7 @@ span {
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
+        cursor: pointer;
     }
 
     .navbar {
